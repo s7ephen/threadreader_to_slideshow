@@ -3,8 +3,7 @@ Convert a Twitter thread into an interactive slideshow that can be hosted
 on a private site.
 
 This is done be converting a Twitter Thread that's been downloaded with 
-"threadreader_downloader" into Slideshow markdown with each slide as a tweet
-in the thread containing all its original text and embedded media.
+["threadreader_downloader"](https://github.com/s7ephen/threadreader_downloader) into Slideshow markdown with each slide as a tweet in the thread containing all its original text and embedded media.
 
 # Examples: 
 This was written to create all the slides on: xxxxxxxx.com/xxxxx
