@@ -28,7 +28,7 @@ After the tool has run, you will have a directory called `threadreader_slides` a
 
 ![After Running It](readme_assets/after_running_it.png)
 
-This created `threadreader_downloader_slides` directory is now usable in Reveal-Hugo as a slideshow.
+This created `threadreader_downloader_slides` directory is now usable in [Reveal-Hugo](https://reveal-hugo.dzello.com/) as a slideshow.
 
 # How to use it (on a normal system):
 1. copy the `threadreader_to_slideshow.py` out of `/code` and the `.ini` of the same name to wherever you wanna use it.
@@ -36,6 +36,9 @@ This created `threadreader_downloader_slides` directory is now usable in Reveal-
 3. install Python dependencies: apt-get install -y python-requests python-lxml
 4. edit the .ini file to change "TESTRUN" variable to "true" if you don't want any directories or files created. leave false to actually create files and such.
 4. run `threadreader_to_slideshow.py`
+
+# Link to DockerHub:
+https://hub.docker.com/r/sa7ori/threadreader_to_slideshow
 
 # How to build this Container:
 1. Clone this directory
