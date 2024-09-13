@@ -37,7 +37,7 @@ except:
     print("\n\n*** Not all necessary modules are installed. *** ")
 
 global IMGEXTS, OCREXT, TESSEXE, CONFIG, CONFIG_FNAME, TESTRUN, OUTPUT_DIR
-CONFIG_FNAME = 'threads_site_jumpstart.ini'
+CONFIG_FNAME = 'threadreader_to_slideshow.ini'
 IMGEXTS = [".png", ".jpeg", ".tif", ".jpg"]
 
 class SlideDeck():
